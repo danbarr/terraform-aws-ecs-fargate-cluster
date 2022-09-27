@@ -6,7 +6,7 @@ Example:
 
 ```terraform
 module "ecs_cluster" {
-  source             = "github.com/danbarr/terraform-aws-ecs-tfc-agent?ref=v0.9.1"
+  source             = "github.com/danbarr/terraform-aws-ecs-fargate-cluster?ref=v0.9.1"
   cluster_name       = "example-cluster"
   container_insights = true
 }
@@ -16,7 +16,7 @@ Example using Fargate Spot as the default capacity provider, for reduced costs w
 
 ```terraform
 module "ecs_cluster" {
-  source            = "github.com/danbarr/terraform-aws-ecs-tfc-agent?ref=v0.9.1"
+  source            = "github.com/danbarr/terraform-aws-ecs-fargate-cluster?ref=v0.9.1"
   cluster_name      = "example-spot-cluster"
   capacity_provider = "FARGATE_SPOT"
 }
