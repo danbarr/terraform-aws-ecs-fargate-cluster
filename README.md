@@ -36,11 +36,7 @@ module "ecs_cluster" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.22.0 |
-
-## Modules
-
-No modules.
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.2 |
 
 ## Resources
 
@@ -62,6 +58,5 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_cluster_arn"></a> [cluster\_arn](#output\_cluster\_arn) | ARN that identifies the cluster |
-| <a name="output_cluster_id"></a> [cluster\_id](#output\_cluster\_id) | ID that identifies the cluster |
 | <a name="output_cluster_name"></a> [cluster\_name](#output\_cluster\_name) | Name that identifies the cluster |
 <!-- END_TF_DOCS -->
